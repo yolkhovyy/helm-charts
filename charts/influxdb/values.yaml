@@ -1,8 +1,9 @@
 ## influxdb image version
 ## ref: https://hub.docker.com/r/library/influxdb/tags/
 image:
-  repository: "influxdb"
-  tag: "1.8.10-alpine"
+  registry: docker.io
+  repository: arm32v7/influxdb
+  tag: latest
   pullPolicy: IfNotPresent
   ## If specified, use these secrets to access the images
   # pullSecrets:
